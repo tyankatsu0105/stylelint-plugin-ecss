@@ -1,0 +1,71 @@
+{
+  "name": "stylelint-plugin-ecss",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "repository": "git@github.com:tyankatsu0105/stylelint-plugin-ecss.git",
+  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "stylelint",
+    "stylelintplugin",
+    "ecss"
+  ],
+  "homepage": "https://github.com/tyankatsu0105/stylelint-plugin-ecss",
+  "bugs": {
+    "url": "https://github.com/tyankatsu0105/stylelint-plugin-ecss/issues"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib",
+    "!**/tests",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "echo 'pass tests'",
+    "lint-staged": "lint-staged",
+    "precommit": "lint-staged",
+    "commit": "git-cz",
+    "release:major": "changelog -M -u $npm_package_config_changelog && git add CHANGELOG.md && git commit --no-verify -m 'docs(CHANGELOG.md): :bookmark: updated CHANGELOG.md' && npm version major -m 'feat: :tada: updated version' && git push origin && git push origin --tags",
+    "release:minor": "changelog -m -u $npm_package_config_changelog && git add CHANGELOG.md && git commit --no-verify -m 'docs(CHANGELOG.md): :bookmark: updated CHANGELOG.md' && npm version minor -m 'feat: :tada: updated version' && git push origin && git push origin --tags",
+    "release:patch": "changelog -p -u $npm_package_config_changelog && git add CHANGELOG.md && git commit --no-verify -m 'docs(CHANGELOG.md): :bookmark: updated CHANGELOG.md' && npm version patch -m 'feat: :tada: updated version' && git push origin && git push origin --tags"
+  },
+  "config": {
+    "changelog": "https://github.com/tyankatsu0105/stylelint-plugin-ecss"
+  },
+  "peerDependencies": {
+    "stylelint": "^9.10.1"
+  },
+  "devDependencies": {
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4",
+    "stylelint": "^9.10.1"
+  },
+  "lint-staged": {
+    "linters": {
+      "*.js": [
+        "eslint --fix",
+        "git add"
+      ],
+      "*.md": [
+        "prettier --write",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "./*.js",
+      "node_modules/**/*",
+      "log/**/*",
+      "tools/update-readme/_readme/*"
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
