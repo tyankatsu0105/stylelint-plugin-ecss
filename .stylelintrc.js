@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ["./lib/index.js"],
   rules: {
-    "ecss/my-rule": ["hoge", { "severity": "warning" } ]
+    "ecss/no-extend": ["hoge", { "severity": "warning" } ]
   }
 };

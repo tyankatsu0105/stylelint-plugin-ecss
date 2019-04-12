@@ -1,2 +1,19 @@
-@mixin complex-object ($items: 10) {}
+// 継承元のセレクタ
+.button {
+  display: inline-block;
+  border: 1px solid gray;
+  background-color: silver;
+  &:hover {
+      border-color: black;
+  }
+}
 
+// .button セレクタを継承・拡張
+.button-download {
+  @extend .button;         // .button を継承
+  background-color: green; // プロパティを上書き
+  border-radius: 4px;      // 新たなプロパティの追加
+  .icon {                  // ネストしたセレクタの追加
+      background: url(/img/download.png) no-repeat 0 50%;
+  }
+}

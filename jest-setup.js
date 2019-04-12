@@ -1,5 +1,6 @@
 const _ = require("lodash");
 const stylelint = require("stylelint");
+const pathRules = "./lib/";
 
 global.testRule = (rule, schema) => {
   expect.extend({
@@ -20,7 +21,7 @@ global.testRule = (rule, schema) => {
 
   describe(schema.ruleName, () => {
     const stylelintConfig = {
-      plugins: ["./lib/"],
+      plugins: [pathRules],
       rules: {
         [schema.ruleName]: schema.config
       }
@@ -150,7 +151,7 @@ global.testConfig = input => {
 
   testFn(input.description, () => {
     const config = {
-      plugins: ["./lib/"],
+      plugins: [pathRules],
       rules: {
         [input.ruleName]: input.config
       }

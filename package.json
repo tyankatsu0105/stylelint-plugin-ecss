@@ -54,7 +54,6 @@
   "peerDependencies": {
     "stylelint": "^9.10.1"
   },
-  
   "devDependencies": {
     "commitizen": "^3.0.7",
     "cz-conventional-changelog": "^2.1.0",
