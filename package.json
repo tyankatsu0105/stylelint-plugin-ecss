@@ -23,6 +23,7 @@
   ],
   "scripts": {
     "test": "jest",
+    "test:lint": "stylelint  --config './fixture/.stylelintrc.js' --fix ./fixture/style.scss ",
     "lint-staged": "lint-staged",
     "precommit": "lint-staged",
     "commit": "git-cz",
