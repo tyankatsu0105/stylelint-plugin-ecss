@@ -1,3 +1,9 @@
+#### 0.0.2 (2019-04-15)
+
+##### Refactors
+
+*  Remove no-extend ([1bb65fb0](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/1bb65fb0c0a5316cf559c84cc7e9f91d8126707e))
+
 #### 0.0.1 (2019-04-13)
 
 ##### Continuous Integration
