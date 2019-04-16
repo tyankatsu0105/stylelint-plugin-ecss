@@ -1,3 +1,13 @@
+#### 0.0.3 (2019-04-16)
+
+##### Documentation Changes
+
+*  Add rule ([60d621ae](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/60d621aee1db2997f2be2158ccbb7f76b0b93341))
+
+##### New Features
+
+*  Add comment-check-prefix-browser-hacks ([70407fdd](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/70407fddc3c5061a096c8ff67a93aaa34f14c2ab))
+
 #### 0.0.2 (2019-04-15)
 
 ##### Refactors
