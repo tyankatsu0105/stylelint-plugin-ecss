@@ -8,5 +8,17 @@
   */
   .bar {
     color: #fff;
+    font-size: 10px;
+    display: block;
   }
+}
+
+a {
+  padding: 10px;
+  margin: 3rem;
+  top: $10px;
+  background-color: var(--main-bg-color);
+  background-color: #fff;
+  line-height: 1.9;
+  background: linear-gradient(to bottom, $red 0%,$red 50%,$red 51%,$red 100%); 
 }
