@@ -9,6 +9,7 @@ stylelint plugins for [ECSS](http://ecss.io/)
 ## Chapter 8. The Ten Commandments of Sane Style Sheets
 
 - Thou shalt comment all magic numbers and browser hacks
+  - [declaration-comment-magic-numbers-before](https://github.com/tyankatsu0105/stylelint-plugin-ecss/tree/master/lib/rules/declaration-comment-magic-numbers-before)
   - [comment-check-prefix-browser-hacks](https://github.com/tyankatsu0105/stylelint-plugin-ecss/tree/master/lib/rules/comment-check-prefix-browser-hacks)
 
 # Relation
