@@ -7,18 +7,22 @@
   aaa
   */
   .bar {
-    color: #fff;
-    font-size: 10px;
-    display: block;
+    font-size: 1rem;
+  color: #fff;
+  background-color: #fff;
+  border-top: 1px solid #000;
   }
 }
 
 a {
+  // aaaaaaaaa
   padding: 10px;
+  // aaaaaaaa
   margin: 3rem;
   top: $10px;
   background-color: var(--main-bg-color);
   background-color: #fff;
+  // aaaaaaaaaaaa
   line-height: 1.9;
   background: linear-gradient(to bottom, $red 0%,$red 50%,$red 51%,$red 100%); 
 }
