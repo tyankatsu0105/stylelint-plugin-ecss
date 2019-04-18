@@ -1,3 +1,17 @@
+#### 0.0.4 (2019-04-18)
+
+##### Documentation Changes
+
+*  Add rule ([0bc3eb9b](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/0bc3eb9bc5dd5eb00269bcf0edef8272a5b2f6f9))
+
+##### New Features
+
+*  Add declaration-comment-magic-numbers-before ([6b976d85](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/6b976d853bc1d72a12a212107dfd65e8d543c71e))
+
+##### Refactors
+
+*  WIP Add rule declaration-comment-magic-numbers-before ([3f665796](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/3f6657961c3947ea4fc9bcc090204c555ae6c0d8))
+
 #### 0.0.3 (2019-04-16)
 
 ##### Documentation Changes
