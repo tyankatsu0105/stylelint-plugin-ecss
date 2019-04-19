@@ -1,3 +1,18 @@
+#### 0.0.5 (2019-04-19)
+
+##### Documentation Changes
+
+*  Add rule ([23bc19ad](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/23bc19addeeb4e1d633935f6d991f1e3d5fa681e))
+
+##### New Features
+
+*  Add rule background-no-base64 ([c082332d](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/c082332d06423a7bdb52186b79b8de044d0cddfb))
+*  Add Hygen for generate rule ([a7f8811d](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/a7f8811d22fad6730739cf7943ae4d7ef0f87872))
+
+##### Bug Fixes
+
+*  fix pattern match ([3fc12053](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/3fc12053407bea2f56c19eab91d78b98cec12f34))
+
 #### 0.0.4 (2019-04-18)
 
 ##### Documentation Changes
