@@ -1,3 +1,9 @@
+## 1.0.0 (2019-04-20)
+
+##### Documentation Changes
+
+*  Remove WIP ([feda0314](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/feda0314bd0fb87218e7c807d323587a226cc820))
+
 #### 0.0.5 (2019-04-19)
 
 ##### Documentation Changes
