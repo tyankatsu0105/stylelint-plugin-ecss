@@ -5,8 +5,8 @@ This rule check whether comment contain `HHHack` when you use device/browser hac
 ## Good👍
 
 ```scss
-// HHHack this is hack
 .bar {
+  // HHHack this is hack
   color: #fff;
 }
 ```
@@ -14,22 +14,22 @@ This rule check whether comment contain `HHHack` when you use device/browser hac
 ## Bad👎
 
 ```scss
-// HHhack this is hack
 .bar {
+  // HHhack this is hack
   color: #fff;
 }
 ```
 
 ```scss
-// hhhack this is hack
 .bar {
+  // hhhack this is hack
   color: #fff;
 }
 ```
 
 ```scss
-// Hhhack this is hack
 .bar {
+  // Hhhack this is hack
   color: #fff;
 }
 ```
