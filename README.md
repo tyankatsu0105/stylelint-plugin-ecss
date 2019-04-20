@@ -1,7 +1,5 @@
 # stylelint-plugin-ecss
 
-🚧WIP🚧
-
 stylelint plugins for [ECSS](http://ecss.io/)
 
 # Rules
