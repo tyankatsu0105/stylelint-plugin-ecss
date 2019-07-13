@@ -71,6 +71,6 @@
     "stylelint": "^9.10.1"
   },
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.13"
   }
 }
