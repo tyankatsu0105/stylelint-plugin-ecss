@@ -1,3 +1,7 @@
+## [1.0.1](https://github.com/tyankatsu0105/stylelint-plugin-ecss/compare/v1.0.0...v1.0.1) (2020-05-07)
+
+
+
 ## 1.0.0 (2019-04-20)
 
 ##### Documentation Changes
