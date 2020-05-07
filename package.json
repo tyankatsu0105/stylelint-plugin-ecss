@@ -5,18 +5,12 @@
   "repository": "git@github.com:tyankatsu0105/stylelint-plugin-ecss.git",
   "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com>",
   "license": "MIT",
-  "keywords": [
-    "stylelint",
-    "stylelintplugin",
-    "ecss"
-  ],
+  "keywords": ["stylelint", "stylelintplugin", "ecss"],
   "homepage": "https://github.com/tyankatsu0105/stylelint-plugin-ecss",
   "bugs": {
     "url": "https://github.com/tyankatsu0105/stylelint-plugin-ecss/issues"
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "scripts": {
     "test": "jest",
     "sandbox": "stylelint --config './sandbox/.stylelintrc.js' --fix ./sandbox/style.scss ",
@@ -24,15 +18,13 @@
     "precommit": "lint-staged",
     "commit": "git-cz",
     "gen:rule": "hygen generate rule",
-    "gen:sandbox": "hygen generate sandbox"
+    "gen:sandbox": "hygen generate sandbox",
+    "release:prepare": "shipjs prepare",
+    "release:trigger": "shipjs trigger"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix"
-    ],
-    "*.md": [
-      "prettier --write"
-    ]
+    "*.js": ["eslint --fix"],
+    "*.md": ["prettier --write"]
   },
   "peerDependencies": {
     "stylelint": "^13.0.0"
@@ -49,6 +41,7 @@
     "jest": "^26.0.1",
     "lint-staged": "^10.2.2",
     "prettier": "^2.0.5",
+    "shipjs": "0.18.3",
     "stylelint": "^13.3.3"
   },
   "dependencies": {

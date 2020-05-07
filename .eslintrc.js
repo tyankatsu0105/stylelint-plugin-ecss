@@ -16,13 +16,6 @@ module.exports = {
   extends: ["eslint:recommended", "plugin:node/recommended", "prettier"],
   plugins: ["prettier"],
   rules: {
-    "prettier/prettier": "error",
-    "node/no-missing-require": ["error", {
-      "allowModules": [
-        "@rules",
-        "@utils"
-      ],
-      
-  }]
+    "prettier/prettier": "error"
   }
 };
