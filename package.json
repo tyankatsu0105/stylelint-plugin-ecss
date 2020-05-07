@@ -15,62 +15,43 @@
     "url": "https://github.com/tyankatsu0105/stylelint-plugin-ecss/issues"
   },
   "files": [
-    "LICENSE",
-    "README.md",
-    "lib",
-    "!**/tests",
-    "package.json"
+    "lib"
   ],
   "scripts": {
     "test": "jest",
-    "test:lint": "stylelint  --config './fixture/.stylelintrc.js' --fix ./fixture/style.scss ",
+    "sandbox": "stylelint --config './sandbox/.stylelintrc.js' --fix ./sandbox/style.scss ",
     "lint-staged": "lint-staged",
     "precommit": "lint-staged",
     "commit": "git-cz",
     "gen:rule": "hygen generate rule",
-    "release:major": "changelog -M -u $npm_package_config_changelog && git add CHANGELOG.md && git commit --no-verify -m 'docs(CHANGELOG.md): :bookmark: updated CHANGELOG.md' && npm version major -m 'feat: :tada: updated version' && git push origin && git push origin --tags",
-    "release:minor": "changelog -m -u $npm_package_config_changelog && git add CHANGELOG.md && git commit --no-verify -m 'docs(CHANGELOG.md): :bookmark: updated CHANGELOG.md' && npm version minor -m 'feat: :tada: updated version' && git push origin && git push origin --tags",
-    "release:patch": "changelog -p -u $npm_package_config_changelog && git add CHANGELOG.md && git commit --no-verify -m 'docs(CHANGELOG.md): :bookmark: updated CHANGELOG.md' && npm version patch -m 'feat: :tada: updated version' && git push origin && git push origin --tags"
-  },
-  "config": {
-    "changelog": "https://github.com/tyankatsu0105/stylelint-plugin-ecss"
+    "gen:sandbox": "hygen generate sandbox"
   },
   "lint-staged": {
-    "linters": {
-      "*.js": [
-        "eslint --fix",
-        "git add"
-      ],
-      "*.md": [
-        "prettier --write",
-        "git add"
-      ]
-    },
-    "ignore": [
-      "./*.js",
-      "node_modules/**/*",
-      "log/**/*",
-      "tools/update-readme/_readme/*"
+    "*.js": [
+      "eslint --fix"
+    ],
+    "*.md": [
+      "prettier --write"
     ]
   },
   "peerDependencies": {
-    "stylelint": "^9.10.1"
+    "stylelint": "^13.0.0"
   },
   "devDependencies": {
-    "commitizen": "^3.0.7",
-    "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-prettier": "^3.0.1",
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
     "generate-changelog": "^1.7.1",
-    "hygen": "^4.0.2",
-    "jest": "^24.7.1",
-    "lint-staged": "^8.1.5",
-    "prettier": "^1.16.4",
-    "stylelint": "^9.10.1"
+    "hygen": "^5.0.3",
+    "jest": "^26.0.1",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.3.3"
   },
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.15"
   }
 }

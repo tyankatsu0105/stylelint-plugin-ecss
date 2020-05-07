@@ -18,6 +18,27 @@ stylelint plugins for [ECSS](http://ecss.io/)
 
 [stylelint\-config\-ecss](https://github.com/tyankatsu0105/stylelint-config-ecss)
 
+# Development
+
+## Make rule
+
+```bash
+# generate rule
+npm run gen:rule
+```
+
+Then, you should add new rule to /lin/rules/index.js
+
+## sandbox
+
+```bash
+# make sandbox files
+npm run gen:sandbox
+
+# run lint for sandbox
+npm run gen:sandbox
+```
+
 # LICENSE
 
 MIT

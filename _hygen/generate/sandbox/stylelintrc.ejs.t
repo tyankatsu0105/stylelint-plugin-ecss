@@ -1,3 +1,6 @@
+---
+to: sandbox/.stylelintrc.js
+---
 module.exports = {
   plugins: ["../lib/index.js"],
   rules: {

@@ -1,0 +1,3 @@
+---
+to: sandbox/style.scss
+---
