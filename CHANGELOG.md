@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/tyankatsu0105/stylelint-plugin-ecss/compare/v1.0.1...v1.1.0) (2020-09-04)
+
+
+### Features
+
+* ignore custom properties in :root ([#13](https://github.com/tyankatsu0105/stylelint-plugin-ecss/issues/13)) ([48ce403](https://github.com/tyankatsu0105/stylelint-plugin-ecss/commit/48ce4030def260964bb9d5a356fedda0f6e76efe))
+
+
+
 ## [1.0.1](https://github.com/tyankatsu0105/stylelint-plugin-ecss/compare/v1.0.0...v1.0.1) (2020-05-07)
 
 
